@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MiniProject">
         <activity
+            android:name=".ConcertActivity"
+            android:label="Liste des concerts"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.miniproject.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TheatreActivity"
+            android:label="Liste des pièces"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.miniproject.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CinemaActivity"
+            android:label="Liste des films"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.miniproject.MainActivity" />
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
