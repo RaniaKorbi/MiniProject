@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/drawable/ic_add_black_24dp.xml" value="0.225" />
         <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/activity_cinema.xml" value="0.264" />
         <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/activity_concert.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/activity_new_event.xml" value="0.1" />
         <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/activity_theatre.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/cinema_content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/cinema_event_item.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

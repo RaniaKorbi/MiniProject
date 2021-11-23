@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MiniProject">
         <activity
+            android:name=".NewEventActivity"
+            android:exported="true" />
+        <activity
             android:name=".ConcertActivity"
             android:label="Liste des concerts"
             android:parentActivityName=".MainActivity">
