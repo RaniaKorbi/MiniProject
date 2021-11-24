@@ -8,9 +8,12 @@
         <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/activity_concert.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/activity_new_event.xml" value="0.1" />
-        <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/activity_theatre.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/activity_reservation.xml" value="0.264" />
+        <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/activity_theatre.xml" value="0.2" />
         <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/cinema_content_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/cinema_event_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/layout/fragment_date_picker.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Rania/AndroidStudioProjects/MiniProject2/app/src/main/res/menu/menu_main.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

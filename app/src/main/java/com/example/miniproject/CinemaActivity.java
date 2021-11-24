@@ -2,6 +2,8 @@ package com.example.miniproject;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
@@ -34,7 +36,7 @@ public class CinemaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityCinemaBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        RecyclerView recyclerView = findViewById(R.id.cinema_recyclerview);
+        RecyclerView recyclerView = findViewById(R.id.recyclerview1);
         final CinemaEventListAdapter adapter = new CinemaEventListAdapter(this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -96,5 +98,26 @@ public class CinemaActivity extends AppCompatActivity {
                     Toast.LENGTH_LONG).show();
         }
     }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
 
+        if (id == R.id.clear_data) {
+            // Add a toast just for confirmation
+            Toast.makeText(this, "Clearing the data...",
+                    Toast.LENGTH_SHORT).show();
+
+            // Delete the existing data
+            cinemaEventViewModel.deleteAll();
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
 }

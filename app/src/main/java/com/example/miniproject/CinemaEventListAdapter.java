@@ -1,6 +1,7 @@
 package com.example.miniproject;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,12 +50,18 @@ public int getItemCount() {
         else return 0;
         }
 
-class CinemaEventViewHolder extends RecyclerView.ViewHolder {
+class CinemaEventViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
     private final TextView eventItemView;
 
     private CinemaEventViewHolder(View itemView) {
         super(itemView);
         eventItemView = itemView.findViewById(R.id.CinemaEventTextView);
+    }
+
+    @Override
+    public void onClick(View v) {
+        Intent intent = new Intent(v.getContext(), ReservationActivity.class);
+        v.getContext().startActivity(intent);
     }
 }
     public CinemaEvent getEventAtPosition (int position) {

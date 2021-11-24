@@ -11,7 +11,7 @@ import android.widget.EditText;
 
 public class NewEventActivity extends AppCompatActivity {
     public static final String EXTRA_REPLY =
-            "com.example.android.roomwordssample.REPLY";
+            "com.example.miniproject.REPLY";
 
     private EditText mEditWordView;
 
